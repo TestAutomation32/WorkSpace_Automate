@@ -74,6 +74,11 @@ public class BaseTest {
         personalInformationCheckValidationPage=PageFactory.initElements(driver,PersonalInformationCheckValidationPage.class);
     }
 
+    public void repo_Master_Branch()
+    {
+        System.out.println("this is my first commit");
+    }
+
     //METHOD TO READ DATA FROM PROPERTY FILE
     public void Readdata() {
 
