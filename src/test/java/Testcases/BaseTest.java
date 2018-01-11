@@ -78,6 +78,10 @@ public class BaseTest {
     {
         System.out.println("this is my first commit");
     }
+    public void second_Master_Branch()
+    {
+        System.out.println("this is my second commit to master branch");
+    }
 
     //METHOD TO READ DATA FROM PROPERTY FILE
     public void Readdata() {
