@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Testcases.AboutMeTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Testcases.AboutMeTest">
+        <methods>
+          <include name="EyecolorValidationOnly"/>
+          <include name="HairValidationcheckOnly"/>
+          <include name="setup"/>
+          <include name="WeightValidationCheckOnly"/>
+          <include name="HeightValidationCheckOnly"/>
+        </methods>
+      </class> <!-- Testcases.AboutMeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Testcases.AboutMeTest] -->

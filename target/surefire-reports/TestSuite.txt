@@ -1,0 +1,166 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 101, Failures: 40, Errors: 0, Skipped: 40, Time elapsed: 143.44 sec <<< FAILURE!
+Benifits(Testcases.BenifitsValidDataTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.BenifitsValidDataTest.Benifits(BenifitsValidDataTest.java:22)
+
+AboutMe(Testcases.AboutMeCheckValidationTest)  Time elapsed: 31.772 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.fail(Assert.java:100)
+	at Testcases.AboutMeCheckValidationTest.AboutMe(AboutMeCheckValidationTest.java:30)
+
+AboutMe(Testcases.BackgroundCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.BackgroundCheckValidationTest.AboutMe(BackgroundCheckValidationTest.java:18)
+
+AboutMe(Testcases.DirectDepositCheckValidationTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.DirectDepositCheckValidationTest.AboutMe(DirectDepositCheckValidationTest.java:18)
+
+AboutMe(Testcases.DisabilityCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.DisabilityCheckValidationTest.AboutMe(DisabilityCheckValidationTest.java:18)
+
+AboutMe(Testcases.EducationCheckValidationTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.EducationCheckValidationTest.AboutMe(EducationCheckValidationTest.java:20)
+
+AboutMe(Testcases.EmergencyContactCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.EmergencyContactCheckValidationTest.AboutMe(EmergencyContactCheckValidationTest.java:18)
+
+Benifits(Testcases.LifeInsuranceCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.LifeInsuranceCheckValidationTest.Benifits(LifeInsuranceCheckValidationTest.java:21)
+
+AboutMe(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.AboutMe(PersonalInformationCheckValidationTest.java:19)
+
+Benifits(Testcases.RetirementCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.RetirementCheckValidationTest.Benifits(RetirementCheckValidationTest.java:20)
+
+AboutMe(Testcases.AboutMeValidDataTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.AboutMeValidDataTest.AboutMe(AboutMeValidDataTest.java:20)
+
+Background(Testcases.BackgroundCheckValidationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.BackgroundCheckValidationTest.Background(BackgroundCheckValidationTest.java:27)
+
+DirectDeposit(Testcases.DirectDepositCheckValidationTest)  Time elapsed: 5 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.DirectDepositCheckValidationTest.DirectDeposit(DirectDepositCheckValidationTest.java:31)
+
+Disability(Testcases.DisabilityCheckValidationTest)  Time elapsed: 5.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.DisabilityCheckValidationTest.Disability(DisabilityCheckValidationTest.java:30)
+
+Education(Testcases.EducationCheckValidationTest)  Time elapsed: 5.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.EducationCheckValidationTest.Education(EducationCheckValidationTest.java:34)
+
+EmergencyContact(Testcases.EmergencyContactCheckValidationTest)  Time elapsed: 7.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.EmergencyContactCheckValidationTest.EmergencyContact(EmergencyContactCheckValidationTest.java:32)
+
+Health(Testcases.HealthBenefitsCheckValidationTest)  Time elapsed: 5.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.HealthBenefitsCheckValidationTest.Health(HealthBenefitsCheckValidationTest.java:33)
+
+Life(Testcases.LifeInsuranceCheckValidationTest)  Time elapsed: 5.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.LifeInsuranceCheckValidationTest.Life(LifeInsuranceCheckValidationTest.java:32)
+
+FirstnameValidationOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.FirstnameValidationOnly(PersonalInformationCheckValidationTest.java:39)
+
+Retirement(Testcases.RetirementCheckValidationTest)  Time elapsed: 4.998 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.RetirementCheckValidationTest.Retirement(RetirementCheckValidationTest.java:32)
+
+EmergencyContact(Testcases.AboutMeValidDataTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.AboutMeValidDataTest.EmergencyContact(AboutMeValidDataTest.java:30)
+
+LastnameValidationOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.LastnameValidationOnly(PersonalInformationCheckValidationTest.java:65)
+
+Education(Testcases.AboutMeValidDataTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.AboutMeValidDataTest.Education(AboutMeValidDataTest.java:56)
+
+MaritalValidationOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.MaritalValidationOnly(PersonalInformationCheckValidationTest.java:84)
+
+StreetaddressValidationOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.StreetaddressValidationOnly(PersonalInformationCheckValidationTest.java:106)
+
+Citizenship(Testcases.AboutMeValidDataTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.AboutMeValidDataTest.Citizenship(AboutMeValidDataTest.java:74)
+
+CountryValidationcheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.CountryValidationcheckOnly(PersonalInformationCheckValidationTest.java:130)
+
+Ethinic(Testcases.AboutMeValidDataTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.AboutMeValidDataTest.Ethinic(AboutMeValidDataTest.java:92)
+
+Disabled(Testcases.BenifitsValidDataTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.BenifitsValidDataTest.Disabled(BenifitsValidDataTest.java:125)
+
+CityValidationcheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0.501 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.CityValidationcheckOnly(PersonalInformationCheckValidationTest.java:159)
+
+ZipcodeValidationCheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 5.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.ZipcodeValidationCheckOnly(PersonalInformationCheckValidationTest.java:187)
+
+Disability(Testcases.AboutMeValidDataTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.AboutMeValidDataTest.Disability(AboutMeValidDataTest.java:112)
+
+EmailValidationcheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 5 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.EmailValidationcheckOnly(PersonalInformationCheckValidationTest.java:215)
+
+PhoneValidationCheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 5.034 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.PhoneValidationCheckOnly(PersonalInformationCheckValidationTest.java:253)
+
+CountrybirthValidationOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.CountrybirthValidationOnly(PersonalInformationCheckValidationTest.java:269)
+
+GendervalidationOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 5.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.GendervalidationOnly(PersonalInformationCheckValidationTest.java:297)
+
+EyecolorValidationOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.EyecolorValidationOnly(PersonalInformationCheckValidationTest.java:318)
+
+HairValidationcheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 5.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.HairValidationcheckOnly(PersonalInformationCheckValidationTest.java:347)
+
+HeightValidationCheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 5.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.HeightValidationCheckOnly(PersonalInformationCheckValidationTest.java:372)
+
+WeightValidationCheckOnly(Testcases.PersonalInformationCheckValidationTest)  Time elapsed: 5.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Testcases.PersonalInformationCheckValidationTest.WeightValidationCheckOnly(PersonalInformationCheckValidationTest.java:401)
+

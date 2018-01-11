@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Testcases.EducationCheckValidationTest">
+        <methods>
+          <include name="Education"/>
+          <include name="CheckVlaidtionForEducation"/>
+          <include name="AboutMe"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.EducationCheckValidationTest -->
+      <class name="Testcases.HealthBenefitsCheckValidationTest">
+        <methods>
+          <include name="CheckValidationforPremium"/>
+          <include name="setup"/>
+          <include name="Health"/>
+          <include name="CheckValidationforEnrollment"/>
+        </methods>
+      </class> <!-- Testcases.HealthBenefitsCheckValidationTest -->
+      <class name="Testcases.LifeInsuranceCheckValidationTest">
+        <methods>
+          <include name="CheckValidationForInsurance"/>
+          <include name="CheckValidationForSignature"/>
+          <include name="setup"/>
+          <include name="CheckValidationForBeneficiary"/>
+          <include name="Benifits"/>
+          <include name="Life"/>
+        </methods>
+      </class> <!-- Testcases.LifeInsuranceCheckValidationTest -->
+      <class name="Testcases.AboutMeCheckValidationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="AboutMe"/>
+        </methods>
+      </class> <!-- Testcases.AboutMeCheckValidationTest -->
+      <class name="Testcases.DirectDepositCheckValidationTest">
+        <methods>
+          <include name="CheckValidationAmount"/>
+          <include name="CheckValidationRounting"/>
+          <include name="CheckValidationOrganization"/>
+          <include name="setup"/>
+          <include name="DirectDeposit"/>
+          <include name="CheckValidationOrganizationAccount"/>
+          <include name="CheckValidationAccount"/>
+          <include name="AddAllotment"/>
+          <include name="CheckValidationAllotRout"/>
+          <include name="Oraganization"/>
+          <include name="AboutMe"/>
+          <include name="CheckValidationAllotAccount"/>
+        </methods>
+      </class> <!-- Testcases.DirectDepositCheckValidationTest -->
+      <class name="Testcases.AboutMeValidDataTest">
+        <methods>
+          <include name="EmergencyContact"/>
+          <include name="setup"/>
+          <include name="Citizenship"/>
+          <include name="Education"/>
+          <include name="AboutMe"/>
+          <include name="Ethinic"/>
+          <include name="Disability"/>
+        </methods>
+      </class> <!-- Testcases.AboutMeValidDataTest -->
+      <class name="Testcases.PersonalInformationCheckValidationTest">
+        <methods>
+          <include name="EmailValidationcheckOnly"/>
+          <include name="PhoneValidationCheckOnly"/>
+          <include name="HairValidationcheckOnly"/>
+          <include name="CountrybirthValidationOnly"/>
+          <include name="EyecolorValidationOnly"/>
+          <include name="FirstnameValidationOnly"/>
+          <include name="GendervalidationOnly"/>
+          <include name="WeightValidationCheckOnly"/>
+          <include name="ZipcodeValidationCheckOnly"/>
+          <include name="HeightValidationCheckOnly"/>
+          <include name="CityValidationcheckOnly"/>
+          <include name="AboutMe"/>
+          <include name="StreetaddressValidationOnly"/>
+          <include name="setup"/>
+          <include name="CountryValidationcheckOnly"/>
+          <include name="LastnameValidationOnly"/>
+          <include name="MaritalValidationOnly"/>
+        </methods>
+      </class> <!-- Testcases.PersonalInformationCheckValidationTest -->
+      <class name="Testcases.BenifitsValidDataTest">
+        <methods>
+          <include name="Disabled"/>
+          <include name="setup"/>
+          <include name="Benifits"/>
+        </methods>
+      </class> <!-- Testcases.BenifitsValidDataTest -->
+      <class name="Testcases.BackgroundCheckValidationTest">
+        <methods>
+          <include name="CheckVlaidtionForExplanation"/>
+          <include name="CheckVlaidtionForOccurance"/>
+          <include name="CheckVlaidtionForRelationship"/>
+          <include name="CheckVlaidtionForDebtLength"/>
+          <include name="CheckVlaidtionForPlace"/>
+          <include name="AboutMe"/>
+          <include name="Background"/>
+          <include name="CheckVlaidtionForDebtSteps"/>
+          <include name="Hired"/>
+          <include name="CheckVlaidtionForCountry"/>
+          <include name="CheckVlaidtionForDebtAmount"/>
+          <include name="CheckVlaidtionForDebtType"/>
+          <include name="CheckVlaidtionForName"/>
+          <include name="setup"/>
+          <include name="CheckVlaidtionForZip"/>
+          <include name="CheckVlaidtionForRelativeName"/>
+          <include name="Debt"/>
+          <include name="CheckVlaidtionForstreet"/>
+        </methods>
+      </class> <!-- Testcases.BackgroundCheckValidationTest -->
+      <class name="Testcases.EmergencyContactCheckValidationTest">
+        <methods>
+          <include name="CheckValidationPhonetype"/>
+          <include name="CheckValidationLastname"/>
+          <include name="CheckValidationRelationship"/>
+          <include name="setup"/>
+          <include name="EmergencyContact"/>
+          <include name="CheckValidationCountry"/>
+          <include name="CheckValidationStreetAdd"/>
+          <include name="AboutMe"/>
+          <include name="CheckValidationZipcode"/>
+          <include name="CheckValidationFirstname"/>
+          <include name="CheckValidationPhonetNumber"/>
+        </methods>
+      </class> <!-- Testcases.EmergencyContactCheckValidationTest -->
+      <class name="Testcases.RetirementCheckValidationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CheckValidationforEnrollment"/>
+          <include name="Retirement"/>
+          <include name="Benifits"/>
+        </methods>
+      </class> <!-- Testcases.RetirementCheckValidationTest -->
+      <class name="Testcases.DisabilityCheckValidationTest">
+        <methods>
+          <include name="Disability"/>
+          <include name="CheckVlaidtionForDisablity"/>
+          <include name="setup"/>
+          <include name="AboutMe"/>
+        </methods>
+      </class> <!-- Testcases.DisabilityCheckValidationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

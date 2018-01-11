@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Testcases.LifeInsuranceCheckValidationTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Testcases.LifeInsuranceCheckValidationTest">
+        <methods>
+          <include name="CheckValidationForInsurance"/>
+          <include name="CheckValidationForSignature"/>
+          <include name="setup"/>
+          <include name="CheckValidationForBeneficiary"/>
+          <include name="Life"/>
+        </methods>
+      </class> <!-- Testcases.LifeInsuranceCheckValidationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Testcases.LifeInsuranceCheckValidationTest] -->

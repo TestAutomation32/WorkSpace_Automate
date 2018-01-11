@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Testcases.HealthBenefitsCheckValidationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 37.036 sec <<< FAILURE!
+Health(Testcases.HealthBenefitsCheckValidationTest)  Time elapsed: 5.088 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.fail(Assert.java:100)
+	at Testcases.HealthBenefitsCheckValidationTest.Health(HealthBenefitsCheckValidationTest.java:51)
+

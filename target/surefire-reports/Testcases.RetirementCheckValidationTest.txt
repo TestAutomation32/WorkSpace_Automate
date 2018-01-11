@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Testcases.RetirementCheckValidationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 45.157 sec <<< FAILURE!
+Retirement(Testcases.RetirementCheckValidationTest)  Time elapsed: 5.058 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.fail(Assert.java:100)
+	at Testcases.RetirementCheckValidationTest.Retirement(RetirementCheckValidationTest.java:41)
+

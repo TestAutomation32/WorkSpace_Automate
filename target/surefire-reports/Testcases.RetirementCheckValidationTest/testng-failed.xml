@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Testcases.RetirementCheckValidationTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Testcases.RetirementCheckValidationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CheckValidationforEnrollment"/>
+          <include name="Retirement"/>
+        </methods>
+      </class> <!-- Testcases.RetirementCheckValidationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Testcases.RetirementCheckValidationTest] -->

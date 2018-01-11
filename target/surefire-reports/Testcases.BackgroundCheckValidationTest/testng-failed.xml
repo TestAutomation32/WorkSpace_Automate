@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Testcases.BackgroundCheckValidationTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Testcases.BackgroundCheckValidationTest">
+        <methods>
+          <include name="CheckVlaidtionForExplanation"/>
+          <include name="CheckVlaidtionForOccurance"/>
+          <include name="CheckVlaidtionForRelationship"/>
+          <include name="CheckVlaidtionForDebtLength"/>
+          <include name="CheckVlaidtionForPlace"/>
+          <include name="Background"/>
+          <include name="CheckVlaidtionForDebtSteps"/>
+          <include name="Hired"/>
+          <include name="CheckVlaidtionForCountry"/>
+          <include name="CheckVlaidtionForDebtAmount"/>
+          <include name="CheckVlaidtionForDebtType"/>
+          <include name="CheckVlaidtionForName"/>
+          <include name="setup"/>
+          <include name="CheckVlaidtionForZip"/>
+          <include name="CheckVlaidtionForRelativeName"/>
+          <include name="Debt"/>
+          <include name="CheckVlaidtionForstreet"/>
+        </methods>
+      </class> <!-- Testcases.BackgroundCheckValidationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Testcases.BackgroundCheckValidationTest] -->

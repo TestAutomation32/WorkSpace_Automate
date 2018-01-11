@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Testcases.LifeInsuranceCheckValidationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 40.9 sec <<< FAILURE!
+Life(Testcases.LifeInsuranceCheckValidationTest)  Time elapsed: 5.071 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.fail(Assert.java:100)
+	at Testcases.LifeInsuranceCheckValidationTest.Life(LifeInsuranceCheckValidationTest.java:40)
+
